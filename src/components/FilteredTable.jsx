@@ -57,7 +57,7 @@ export default function FilteredTable() {
                   <tbody className="divide-y divide-gray-200 bg-white">
                     {data.data.map((person) => (
                       <tr key={uuidv4()}>
-                        <td className="whitespace-nowrap py-2 px-2 text-sm font-medium text-gray-900">
+                        <td className="whitespace-normal custom-max-width py-2 px-2 text-sm font-medium text-gray-900">
                           {person[" 2023 Max Conforming Loan Limits | Winners Guide "]}
                         </td>
                         <td className="whitespace-nowrap py-2 px-2 text-sm font-medium text-gray-900">
@@ -69,7 +69,7 @@ export default function FilteredTable() {
                         <td className="whitespace-nowrap py-2 px-2 text-sm text-gray-500">
                           {person["D"]}
                         </td>
-                        <td className="whitespace-nowrap py-2 px-2 text-sm text-gray-500">
+                        {/* <td className="whitespace-nowrap py-2 px-2 text-sm text-gray-500">
                           {person["E"]}
                         </td>
                         <td className="whitespace-nowrap py-2 px-2 text-sm text-gray-500">
@@ -91,7 +91,7 @@ export default function FilteredTable() {
                           {person["K"]}
                         </td> <td className="whitespace-nowrap py-2 px-2 text-sm text-gray-500">
                           {person["L"]}
-                        </td>
+                        </td> */}
 
                       </tr>
                     ))}

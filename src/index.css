@@ -12,3 +12,7 @@ input:focus, select:focus, textarea:focus, button:focus {
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
+
+.custom-max-width {
+    max-width: 50px; 
+  }
